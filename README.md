@@ -5,10 +5,11 @@
 - Mainly for doujinshi mass buyers, so you can check quickly whether you have bought one certain doujinshi.
 - 适用于本子数量极多且无法记住封面的情况：比如你不会日语但买了几百本日文本子。
 - 就是为了在收本的时候查一下之前买过没有。其他情况下没什么作用。
+- 虽然速度很慢（主要是请求生成图片指纹的过程特别慢，不过这个只需要跑一次就行），但是效果还是很好的。比我找的其他人编的代码好。准确率很高。
 
 # 原理：
 - 借用了SAP推出的人工智能/机器学习平台，使用Leonardo提供的图片特征提取API。
-- 代码整体框架基于：https://github.com/yejianquan/PictureSimilarityCompute/blob/master/README.md （源码过时已更新。并基于自己的需求修改了。）
+- 代码整体框架基于：https://github.com/yejianquan/PictureSimilarityCompute/blob/master/README.md 感谢。（源码过时已更新。并基于自己的需求修改了。）
 
 # 使用方法：
 - 整理所有本子封面。我用的是【扫描全能王】，用【低画质扫描】一张张录入封面。它会自动切割无关区域，尽量不要使图中只出现封面。
